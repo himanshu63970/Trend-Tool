@@ -40,7 +40,7 @@ def load_data(file):
     return df
 
 # Streamlit App Layout
-st.set_page_config(page_title="📊 KPI Analytics Dashboard", layout="wide")
+st.set_page_config(page_title="📊 KPITrendX: Plug-and-Play Analytics Platform", layout="wide")
 
 # Sidebar Layout
 st.sidebar.header("Upload Data")
@@ -122,4 +122,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("#### Created by Developers")
+st.markdown("#### Created by Team ENOC")
