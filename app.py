@@ -399,7 +399,7 @@ if uploaded_file is not None:
                     st.download_button(label="⬇️ Download Comparison Data", data=csv_comp, file_name="KPI_Comparison.csv", mime="text/csv")
                     
 else:
-    logo_path = "/Users/himanshusingh/Documents/a.mp4"
+    logo_path = "media/Test.mp4"
 
     def get_video_base64(video_path):
         """Reads a video file and encodes it in base64 format."""
